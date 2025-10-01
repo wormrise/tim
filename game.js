@@ -10793,9 +10793,9 @@ if (app.keyCode === 77) { // مفتاح M
           document.exitFullscreen();
         }
       });
-       $('.mm-logo').replaceWith("<div class=\"nhap-nhay\">𝙆 𝙄̇ 𝙉 𝙂</div>");
-      $(".loading-logo").replaceWith("<div class=\"nhap-nhay\">𝙆 𝙄̇ 𝙉 𝙂</div>");
-      $('.mm-logo').replaceWith("<div class=\"nhap-nhay\">𝙆 𝙄̇ 𝙉 𝙂</div>");
+       $('.mm-logo').replaceWith("<div class="nhap-nhay" style="color:#fff; text-shadow:0 0 96px #000000 !important; font-size:60px; font-weight:700; text-align:center;">𝙆 𝙄̇ 𝙉 𝙂</div>");
+      $(".loading-logo").replaceWith("<div class="nhap-nhay" style="color:#fff; text-shadow:0 0 96px #000000 !important; font-size:60px; font-weight:700; text-align:center;">𝙆 𝙄̇ 𝙉 𝙂</div>");
+      $('.mm-logo').replaceWith("<div class="nhap-nhay" style="color:#fff; text-shadow:0 0 96px #000000 !important; font-size:60px; font-weight:700; text-align:center;">𝙆 𝙄̇ 𝙉 𝙂</div>");
       if (validateParameter.e === "not_empty") {
         document.getElementById("btnRePlay").addEventListener("click", function () {
           $("#port_id_s").val(gameSettings.pi);
