@@ -10793,9 +10793,9 @@ if (app.keyCode === 77) { // مفتاح M
           document.exitFullscreen();
         }
       });
-      $(".mm-logo").attr("\n    \n     <iframe style=\"width: 100%;\" src=\"https://wormrise.github.io/tim/index.html\" frameborder=\"0\" scrolling=\"no\"></iframe>");
-      $(".loading-logo").attr("\n    \n     <iframe style=\"width: 100%;\" src=\"https://wormrise.github.io/tim/index.html\" frameborder=\"0\" scrolling=\"no\"></iframe>");
-      $('.mm-logo').attr("\n    \n     <iframe style=\"width: 100%;\" src=\"https://wormrise.github.io/tim/index.html\" frameborder=\"0\" scrolling=\"no\"></iframe>");
+       $('.mm-logo').replaceWith("<div class=\"nhap-nhay\">𝙆 𝙄̇ 𝙉 𝙂</div>");
+      $(".loading-logo").replaceWith("<div class=\"nhap-nhay\">𝙆 𝙄̇ 𝙉 𝙂</div>");
+      $('.mm-logo').replaceWith("<div class=\"nhap-nhay\">𝙆 𝙄̇ 𝙉 𝙂</div>");
       if (validateParameter.e === "not_empty") {
         document.getElementById("btnRePlay").addEventListener("click", function () {
           $("#port_id_s").val(gameSettings.pi);
