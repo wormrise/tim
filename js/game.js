@@ -11108,9 +11108,11 @@ if (app.keyCode === 77) { // مفتاح M
           }, {
             nome: "Cindynana 5",
             uri: atob(savedImages[32])
-          },
+          },{
          nome: "Cindynana 6",
-            uri: "https://wormup.in/assets/images/Galaxy-Star.png"];
+            uri: "https://wormup.in/assets/images/Galaxy-Star.png"
+            }
+          ];
           gameSettings.c_2 = validateParameter.programmer;
           let pixiLib = document.getElementById("backgroundArena");
           for (config = 0; config < gameModeParams.length; config++) {
