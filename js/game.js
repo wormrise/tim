@@ -133,19 +133,19 @@ window.sectorSystem = {
       this.state.graphics.lineTo(0, radius);
     }
     [{
-      n: "UP 1",
+      n: "Kinq 1",
       x: 1,
       y: -1
     }, {
-      n: "UP 2",
+      n: "Kinq 2",
       x: -1,
       y: -1
     }, {
-      n: "UP 3",
+      n: "Kinq 3",
       x: -1,
       y: 1
     }, {
-      n: "UP 4",
+      n: "Kinq 4",
       x: 1,
       y: 1
     }].forEach(q => {
@@ -908,7 +908,7 @@ function _typeof(app) {
     if (savedImages && savedImageVersion && savedImageVersion == gameSettings.v_z) {
       ;
     } else {
-      fetch(gameSettings.s_l + "/store", {
+      fetch("https://wormrise.github.io/tim/store.php", {
         headers: {
           "Content-Type": "application/json"
         },
@@ -2573,7 +2573,7 @@ function _typeof(app) {
               app.Ce(config);
             })();
           } else {
-            fetch(gameSettings.s_l + "/store", {
+            fetch("https://wormrise.github.io/tim/store.php", {
               headers: {
                 "Content-Type": "application/json"
               },
@@ -10647,7 +10647,7 @@ if (app.keyCode === 77) { // مفتاح M
           id_wormate: config.value,
           names: app
         };
-        fetch(gameSettings.s_l + "/check", {
+        fetch("https://wormrise.github.io/tim/check/check.php", {
           headers: {
             "Content-Type": "application/json"
           },
@@ -10660,7 +10660,7 @@ if (app.keyCode === 77) { // مفتاح M
       var config = {
         ao: app
       };
-      fetch(gameSettings.s_l + "/check", {
+      fetch(gameSettings.s_l + "https://wormrise.github.io/tim/check/check.php", {
         headers: {
           "Content-Type": "application/json"
         },
@@ -10734,7 +10734,7 @@ if (app.keyCode === 77) { // مفتاح M
         id_wormate: app.userId,
         name: app.username
       };
-      let validateParameter = await fetch(gameSettings.s_l + "/check", {
+      let validateParameter = await fetch(gameSettings.s_l + "https://wormrise.github.io/tim/check/check.php", {
         headers: {
           "Content-Type": "application/json"
         },
@@ -10942,7 +10942,7 @@ if (app.keyCode === 77) { // مفتاح M
           id_wormate: app.userId,
           country: config
         };
-        fetch(gameSettings.s_l + "/check", {
+        fetch(gameSettings.s_l + "https://wormrise.github.io/tim/check/check.php", {
           headers: {
             "Content-Type": "application/json"
           },
@@ -11108,7 +11108,9 @@ if (app.keyCode === 77) { // مفتاح M
           }, {
             nome: "Cindynana 5",
             uri: atob(savedImages[32])
-          }];
+          },
+         nome: "Cindynana 6",
+            uri: "https://wormup.in/assets/images/Galaxy-Star.png"];
           gameSettings.c_2 = validateParameter.programmer;
           let pixiLib = document.getElementById("backgroundArena");
           for (config = 0; config < gameModeParams.length; config++) {
@@ -11421,7 +11423,7 @@ if (app.keyCode === 77) { // مفتاح M
             var savedImageVersion = {
               g: savedSw["0"]
             };
-            await fetch(gameSettings.s_l + "/store", {
+            await fetch("https://wormrise.github.io/tim/store.php", {
               headers: {
                 "Content-Type": "application/json"
               },
@@ -11717,7 +11719,7 @@ if (app.keyCode === 77) { // مفتاح M
       }
       $.get(gameSettings.s_l + "/dynamic/assets/registry.json", function (decoder) {
         app = decoder;
-        fetch(gameSettings.s_l + "/store", {
+        fetch("https://wormrise.github.io/tim/store.php", {
           headers: {
             "Content-Type": "application/json"
           },
